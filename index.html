@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-700 text-white">
+    <div class="bg-green-600 p-8 rounded-lg shadow-xl w-80 md:w-96">
+        <input type="text" id="display" class="w-full p-3 text-right text-2xl bg-gray-200 text-black rounded-lg mb-4" disabled>
+
+        <div class="grid grid-cols-4 gap-3">
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">7</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">8</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">9</button>
+            <button class="btn bg-red-500 p-4 rounded-lg text-xl">/</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">4</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">5</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">6</button>
+            <button class="btn bg-red-500 p-4 rounded-lg text-xl">*</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">1</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">2</button>
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">3</button>
+            <button class="btn bg-red-500 p-4 rounded-lg text-xl">-</button>
+
+            <button class="btn bg-gray-800 text-white p-4 rounded-lg text-xl">0</button>
+            <button class="btn bg-yellow-500 p-4 rounded-lg text-xl">C</button>
+            <button class="btn bg-blue-500 p-4 rounded-lg text-xl">=</button>
+            <button class="btn bg-red-500 p-4 rounded-lg text-xl">+</button>
+        </div>
+    </div>
+</body>
+</html>
